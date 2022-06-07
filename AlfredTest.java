@@ -7,7 +7,7 @@ public class AlfredTest {
         String testGreeting = alfredBot.basicGreeting(); 
         
         
-        String testGuestGreeting = alfredBot.guestGreeting("Norman Dale"); 
+        String testGuestGreeting = alfredBot.guestGreeting("Norman Dale", "Jimmy Chipwood"); 
         String testDateAnnouncement = alfredBot.dateAnnouncement(); 
 
         String alexisTest = alfredBot.respondBeforeAlexis("Alexis!  Play some low-fi beats."); 

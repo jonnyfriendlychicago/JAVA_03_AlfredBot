@@ -14,6 +14,15 @@ public class AlfredQuotes {
         return fullMonty; 
     }
 
+    public String guestGreeting(String guestName, String guestName2) {
+        
+        String greetingPart1 = "Hello, ";
+        String greetingPart1a = " and "; 
+        String greetingPart2 = ".  Lovely to see you both."; 
+        String fullMonty = greetingPart1.concat(guestName).concat(greetingPart1a).concat(guestName2).concat(greetingPart2);  
+        return fullMonty; 
+    }
+
     public String dateAnnouncement() {
         String greetingPart1 = "Hello.  It is currently "; 
         Date currentDate = new Date(); 
